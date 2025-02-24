@@ -1,0 +1,336 @@
+<?php
+
+require_once 'db/connect.php';
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Onlaýn Nobata durmak</title>
+    <link rel="icon" type="image/x-icon" href="/images/footer-logo.png">
+    <link
+        rel="stylesheet"
+        href="/styles/bootstrap.min.css"
+    />
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/onsen/2.10.10/css/font_awesome/css/all.min.css"
+    />
+
+
+    <link
+        rel="stylesheet"
+        href="https://gunbatarshapagy.com/styles/navigator-style.css"
+        id="theme"
+    />
+    <link rel="stylesheet" href="register.css" />
+
+    <link rel="stylesheet" href="/styles/foot-style.css" />
+</head>
+<body>
+<header class="header">
+    <nav class="navbar1 navbar-expand-lg navbar-mainbg">
+        <!-- Logo -->
+        <div class="navbar-brand logo_hawa" href="#">
+            <div class="navbar_logo">
+                <img
+                    src="https://www.gunbatarshapagy.com//images/LOGO.png"
+                    alt=""
+                />
+            </div>
+        </div>
+
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+        >
+            <i class="fas fa-bars text-white"></i>
+        </button>
+        <!-- Links -->
+
+        <div
+            class="collapse navbar-collapse"
+            id="navbarSupportedContent"
+        >
+            <ul class="navbar-nav ml-auto">
+                <!-- For Styling -->
+                <div class="hori-selector">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                </div>
+                <!-- Nav Links -->
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.php">
+                        <i class="ykonka"
+                        ><img
+                                src="https://www.gunbatarshapagy.com//images/info.svg"
+                                alt=""
+                            /> </i
+                        >Gerek maglumatlar
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a
+                        class="nav-link"
+                        href="contact_us/contact us.html"
+                    >
+                        <i class="ykonka"
+                        ><img
+                                src="https://www.gunbatarshapagy.com//images/contact.svg"
+                                alt=""
+                            /> </i
+                        >Habarlaşmak
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.php">
+                        <i class="ykonka"
+                        ><img
+                                src="https://www.gunbatarshapagy.com//images/book_icon.png"
+                                alt=""
+                            /> </i
+                        >Okatýan derslerimiz
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.php">
+                        <i class="ykonka"
+                        ><img
+                                src="https://www.gunbatarshapagy.com//images/prices.png"
+                                alt=""
+                            /> </i
+                        >Mümkinçiliklerimiz
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a
+                        class="nav-link"
+                        href="../duzetmeli-yeri/Site15/index.html"
+                    >
+                        <i class="ykonka"
+                        ><img
+                                src="https://www.gunbatarshapagy.com//images/gallery.svg"
+                                alt=""
+                            /> </i
+                        >Gallereýa & arhiw
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.php">
+                        <i class="ykonka"
+                        ><img
+                                src="https://www.gunbatarshapagy.com//images/about_us.png"
+                                alt=""
+                            /> </i
+                        >Biz barada
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<section class="nobat">
+    <form action="vendor/create.php" method="post" id="registrationForm">
+
+        <div class="online-nobat">
+            <h2 class="online-yazyl">Onlaýn ýazylyşmak</h2>
+            <div class="yazylyshyk">
+                <div class="nobat-form-1 margin-bottom">
+                    <div class="form-1">
+                        <h5>At Familiýaňyzy giriziň</h5>
+
+                        <input
+                            type="text"
+                            name="Ady"
+                            class="form-control"
+                            placeholder=""
+                            required
+                        />
+                    </div>
+                    <div class="form-1">
+                        <h5>Habarlaşmak üçin telefon belgi</h5>
+                        <div class="tel-belgi">
+                            <input
+                                type="number"
+                                name="Telefon"
+                                class="form-control"
+                                placeholder="+99365999999"
+                                required
+                            />
+                        </div>
+                    </div>
+
+                    <div class="form-1">
+                        <h5>Habarlaşmak üçin email</h5>
+                        <div class="email">
+                            <input
+                                type="email"
+                                name="Email"
+                                class="form-control"
+                                placeholder="gunbatar@gmail.com"
+                                required
+                            />
+                        </div>
+                    </div>
+                </div>
+                <div class="nobat-form-1 margin-bottom">
+                    <div class="form-1">
+                        <h5>Okajak dersiňizi saylaň</h5>
+                        <div class="select">
+                            <select
+                                type="text"
+                                name="Dersi"
+                                id="Dersi"
+                                class="form-control"
+                                placeholder=""
+                                required
+                            >
+                                <option value="Inlis dili">Iňlis dili</option>
+                                <option value="Rus dili">Rus dili</option>
+                                <option value="Kompyuter">Kompýuter</option>
+                                <option value="Himiya Biologiya">
+                                    Himiýa & Biýologiýa
+                                </option>
+                                <option value="Mental arifmetika">Mental arifmetika</option>
+                                <option value="Matematika">Matematika</option>
+                                <option value="Suratkeshlik">Suratkeşlik</option>
+                                <option value="Nemes dili">Nemes dili</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-1">
+                        <h5>
+                            Pasport ýa-da dogluş hakyndaky şahadatnamaňyz
+                        </h5>
+                        <div class="email">
+                            <input
+                                type="file"
+                                name="image"
+                                class="form-control"
+                                placeholder="gunbatar@gmail.com"
+                                required
+                            />
+                        </div>
+                    </div>
+
+                    <div class="form-1">
+                        <h5>3X4 formatda suradyňyz</h5>
+                        <div class="tel-belgi">
+                            <input
+                                type="file"
+                                name="image2"
+                                class="form-control"
+                                required
+                            />
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+            <div class="uns">
+                <h6>Üns beriň!</h5>
+                    <p>
+                        Resminamalaryň nusgalary skaner arkaly alynan
+                        bolmalydyr. Telefon arkaly düşürilen nusgalar kabul
+                        edilmeýär. (.jpg ýa-da .png formatda bolmalydyr)
+                    </p>
+                    <span> Iberilýän suratlar 50 Mb uly bolmaly däl. </span>
+            </div>
+
+
+        </div>
+
+        <div class="submit">
+            <div class="flex"></div>
+            <button type="submit" class="btn btn-primary">Ugratmak</button>
+        </div>
+    </form>
+</section>
+
+<div class="pg-footer">
+    <footer class="footer">
+        <svg
+            class="footer-wave-svg"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 100"
+            preserveAspectRatio="none"
+        >
+            <path
+                class="footer-wave-path"
+                d="M851.8,100c125,0,288.3-45,348.2-64V0H0v44c3.7-1,7.3-1.9,11-2.9C80.7,22,151.7,10.8,223.5,6.3C276.7,2.9,330,4,383,9.8 c52.2,5.7,103.3,16.2,153.4,32.8C623.9,71.3,726.8,100,851.8,100z"
+            ></path>
+        </svg>
+
+
+
+        <div class="esasy-footer">
+            <div class="inner-footer">
+                <div class="shahamca">Balkanabat şäheri</div>
+                <ul>
+                    <li><img src="/images/telephone.png" alt="">&nbsp;&nbsp;+993 61-92-32-24</li>
+                    <li><img src="/images/virtual-assistants.png" alt="">&nbsp;&nbsp;+8(222) 6-97-92</li>
+                    <li><img src="/images/placeholder.png  " alt="">&nbsp;&nbsp;Balkanabat.ş 157-nji ÝJT</li>
+                </ul>
+            </div>
+
+            <div class="footer-logo-img">
+                <div class="footer-logo">
+                    <img src="/images/footer-logo.png" alt="">
+                </div>
+                <div class="maksadymyz">
+                    "Maksadymyz müňlerçe adamlaryň başarnyklaryny açmak"
+                </div>
+                <br>
+                <div class="sorag">
+                    Sorag ýüze çykdymy?
+                </div>
+                <br>
+                <a href="contact_us/contact us.html">
+                    <button class="habarlash_btn">Biz bilen habarlaş</button>
+                </a>
+
+            </div>
+
+
+            <div class="inner-footer">
+                <div class="shahamca">Türkmenbaşy şäheri</div>
+                <ul>
+                    <li><img src="/images/telephone.png" alt="">&nbsp;&nbsp;+993 62-08-79-98</li>
+                    <li><img src="/images/virtual-assistants.png" alt="">&nbsp;&nbsp;5-00-27</li>
+                    <li><img src="/images/placeholder.png  " alt="">&nbsp;&nbsp;Türkmenbaşy "luç" krug</li>
+                </ul>
+            </div>
+        </div>
+
+
+
+        <div class="footer-copyright">
+            <h6 class="ak-renk">© 2010-2024 Gunabatar Şapagy okuw merkezi - K - team</h6>
+        </div>
+    </footer>
+</div>
+
+<script
+    class="u-script"
+    type="text/javascript"
+    src="/js/bootstrap.bundle.min.js"
+    defer=""
+></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
+<script src="/js/active.js"></script>
+
+</body>
+</html>
