@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+body{
+    transition: 1s;
+}
+
+h1 {
+    text-align: center; 
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+button:hover{
+    background-color: blueviolet;
+}
