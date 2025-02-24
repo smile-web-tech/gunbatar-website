@@ -1,0 +1,529 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202408 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.gunbatarshapagy.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2002                
+POS_TIME 2685                
+POS_VISITOR 13640               
+POS_DAY 15947               
+POS_DOMAIN 3410                
+POS_LOGIN 3777                
+POS_ROBOT 3932                
+POS_WORMS 4498                
+POS_EMAILSENDER 4629                
+POS_EMAILRECEIVER 4772                
+POS_SESSION 16105               
+POS_SIDER 16294               
+POS_FILETYPES 4907                
+POS_DOWNLOADS 5234                
+POS_OS 5301                
+POS_BROWSER 5468                
+POS_SCREENSIZE 6026                
+POS_UNKNOWNREFERER 6100                
+POS_UNKNOWNREFERERBROWSER 6216                
+POS_ORIGIN 6327                
+POS_SEREFERRALS 6467                
+POS_PAGEREFS 6657                
+POS_SEARCHWORDS 6805                
+POS_KEYWORDS 6957                
+POS_MISC 2349                
+POS_ERRORS 7016                
+POS_CLUSTER 3633                
+POS_SIDER_404 7169                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20240826001745 665 178419 10960046290351
+FirstTime 20240823105347
+LastTime 20240825215011
+LastUpdate 20240826002107 665 0 665 0 0
+TotalVisits 53                  
+TotalUnique 48                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 61                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+JavaEnabled 0 0 0
+RealPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 5 70 332591 1 25 312248
+1 2 61 4249282 2 3 106345
+2 0 0 0 1 1 3
+3 2 4 128576 1 2 198189
+4 3 7 184713 3 4 106348
+5 0 2 58 0 0 0
+6 2 42 4200541 1 1 3
+7 1 1 53171 7 7 106357
+8 4 14 1095427 2 4 2222
+9 0 2 0 1 5 125
+10 21 90 4396769 2 36 734035
+11 12 79 620773 56 93 418623
+12 6 9 234835 5 27 253120
+13 62 298 14924413 17 71 124470
+14 9 65 224814 2 43 314702
+15 4 72 76833 33 489 37115621
+16 19 283 30288705 2 26 77406
+17 12 86 7107668 4 12 32611
+18 20 295 24204328 3 42 534525
+19 2 2 106342 17 112 10161623
+20 16 81 4835687 2 63 56831
+21 2 23 1989830 0 5 12583
+22 2 4 163602 0 0 0
+23 0 0 0 5 8 13780
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 10
+tm 135 1313 85811066
+ru 32 98 3035449
+us 12 104 4726912
+jp 7 46 3886855
+sg 6 6 319026
+cn 6 14 1201711
+de 5 5 265855
+vn 1 1 53171
+ca 1 1 53171
+se 1 2 65742
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 11
+Mediapartners-Google 465 36661941 20240823152210 0
+dataprovider\.com 69 4945434 20240823194136 0
+bingbot/ 38 3662510 20240825183740 0
+Googlebot/ 27 2521956 20240826001745 0
+no_user_agent 7 372197 20240825160056 0
+bot[\s_+:,\.\;\/\\-] 3 174 20240825183814 0
+YandexBot/ 2 37922 20240825230738 0
+python 2 106342 20240824070510 0
+Googlebot\-Image/ 2 12932 20240824143649 0
+custo 2 106342 20240824111947 0
+yandex 1 12571 20240825212125 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 14
+Unknown 28 430320 0 0
+jpg 342 37255597 0 0
+html 24 136972 0 0
+txt 31 696 0 0
+gif 1 97 0 0
+js 216 14131019 0 0
+php 116 4171579 0 0
+css 273 24218271 0 0
+pl 7 251557 0 0
+map 2 397378 0 0
+woff2 29 629640 0 0
+webp 10 2877678 0 0
+png 474 14826965 0 0
+svg 37 91189 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/ads.txt 26 0 1508
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 8
+winxp 1 1
+macosx 11 3
+ios_iphone 8 8
+android 1269 109
+Unknown 31 0
+win7 1 1
+win10 143 52
+linux 126 32
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 23
+chrome127.0.6533.103 178 12
+chrome51.0.2704.103 1 1
+chrome78.0.3904.108 6 6
+chrome80.0.3987.162 1 1
+chrome87.0.4280.88 8 1
+chrome111.0.5563.116 12 8
+chrome56.0.2924.87 2 2
+opera9.0 1 1
+chrome105.0.0.0 2 1
+chrome128.0.0.0 57 4
+Unknown 31 0
+chrome103.0.5060.53 1 1
+safari13.0.3 8 8
+chrome127.0.0.0 937 127
+chrome114.0.0.0 2 0
+chrome126.0.0.0 117 16
+chrome121.0.0.0 218 10
+chrome100.0.4896.127 1 1
+chrome91.0.4472.114 1 1
+chrome96.0.4664.110 2 1
+chrome110.0.0.0 1 1
+chrome76.0.3809.132 2 2
+chrome113.0.0.0 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+Google-adstxt 20240826001551
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Google-adstxt 20240826001551
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 68 114
+From1 1 1
+From2 22 27
+From3 0 0
+From4 115 1448
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+ya_ru 1 1
+google_com 0 5
+www_google_com 21 21
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+301 6 2106
+404 393 1179
+206 14 1285890
+415 3 936033
+302 10 4053
+410 11 12188
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 122
+/bak.php 1 -
+/Kod_dlya_proekta/irden%202-4-6/js/navigate-js.js 9 https://www.gunbatarshapagy.com/Kod_dlya_proekta/irden%202-4-6/lets%20go%201%20Hezret.php
+/laravel/.env 1 -
+/elfinder/connectors/php/connector.php 1 -
+/mail.php 1 -
+/wp-trackback.php 1 -
+/Kod_dlya_proekta/agsam%201-3-5/js/selector_js.js 6 https://www.gunbatarshapagy.com/Kod_dlya_proekta/agsam%201-3-5/advanced%20a%20shohrat.php
+/atomlib.php 1 -
+/2018/wp-includes/wlwmanifest.xml 3 -
+/Kod_dlya_proekta/oylan%201-3-5/js/selector_js.js 3 https://www.gunbatarshapagy.com/Kod_dlya_proekta/oylan%201-3-5/Elementary%20full%20A.php
+/Kod_dlya_proekta/oylan%202-4-6/js/navigate-js.js 2 https://www.gunbatarshapagy.com/Kod_dlya_proekta/oylan%202-4-6/rus%20dili%202%20Nurjemal.php
+/about.php 1 -
+/.well-known/security.txt 1 -
+/admin 2 -
+/Kod_dlya_proekta/oylan%201-3-5/js/jquery.js 3 https://www.gunbatarshapagy.com/Kod_dlya_proekta/oylan%201-3-5/Elementary%20full%20A.php
+/Kod_dlya_proekta/agsam%202-4-6/js/transition-word.js 7 https://gunbatarshapagy.com/Kod_dlya_proekta/agsam%202-4-6/Elementary%20B%20B.php
+/web/wp-includes/wlwmanifest.xml 3 -
+/.env 2 -
+/edit.php 1 -
+/fw.php 1 -
+/ini.php 1 -
+/wp-signup.php 1 -
+/cms/wp-includes/wlwmanifest.xml 3 -
+/site/wp-includes/wlwmanifest.xml 3 -
+/wp-conflg.php 1 -
+/wp1/wp-includes/wlwmanifest.xml 3 -
+/Kod_dlya_proekta/agsam%202-4-6/js/navigate-js.js 7 https://gunbatarshapagy.com/Kod_dlya_proekta/agsam%202-4-6/Elementary%20B%20B.php
+/tazelikler/images/1/1.webp%0D%0A 13 http://gunbatarshapagy.com/index2.php
+/Kod_dlya_proekta/agsam%201-3-5/js/navigate-js.js 6 https://www.gunbatarshapagy.com/Kod_dlya_proekta/agsam%201-3-5/advanced%20a%20shohrat.php
+/post.php 1 -
+/shell.php 1 -
+/wp-includes/wlwmanifest.xml 4 -
+/Kod_dlya_proekta/sayla/js/selector_js.js 19 http://gunbatarshapagy.com/Kod_dlya_proekta/sayla/irden%201-3-5.html
+/administrator/index.php 1 -
+/.git/config 4 -
+/index.phpr 1 -
+/vendor/chartjs/dist/Chart.min.js 11 https://gunbatarshapagy.com/admin/results
+/Kod_dlya_proekta/irden%201-3-5/js/transition-word.js 4 http://gunbatarshapagy.com/Kod_dlya_proekta/irden%201-3-5/Lets%20go4.php
+/wp/wp-includes/wlwmanifest.xml 3 -
+/css.php 1 -
+/Kod_dlya_proekta/oylan%201-3-5/js/transition-word.js 3 https://www.gunbatarshapagy.com/Kod_dlya_proekta/oylan%201-3-5/Elementary%20full%20A.php
+/assets/file-uploader/server/php/index.php 1 -
+/shop/wp-includes/wlwmanifest.xml 3 -
+/wp-2019.php 1 -
+/log.php 1 -
+/web/.env 1 -
+/content.php 1 -
+/media/wp-includes/wlwmanifest.xml 3 -
+/humans.txt 1 -
+/vendor/open-admin/leaflet/geosearch.umd.js.map 1 -
+/Kod_dlya_proekta/sayla/js/navigate-js.js 19 http://gunbatarshapagy.com/Kod_dlya_proekta/sayla/irden%201-3-5.html
+/website/wp-includes/wlwmanifest.xml 3 -
+/view-source: 1 -
+/Kod_dlya_proekta/irden%201-3-5/js/selector_js.js 4 http://gunbatarshapagy.com/Kod_dlya_proekta/irden%201-3-5/Lets%20go4.php
+/Kod_dlya_proekta/oylan%202-4-6/js/selector_js.js 2 https://www.gunbatarshapagy.com/Kod_dlya_proekta/oylan%202-4-6/rus%20dili%202%20Nurjemal.php
+/Kod_dlya_proekta/agsam%201-3-5/js/jquery.js 6 https://www.gunbatarshapagy.com/Kod_dlya_proekta/agsam%201-3-5/advanced%20a%20shohrat.php
+/wp-comments-post.php 1 -
+/wp-activate.php 1 -
+/admin.php 1 -
+/robots.txt 28 -
+/wp-mail.php 1 -
+/dropdown.php 1 -
+/bypass.php 1 -
+/as.php 1 -
+/simple.php 2 -
+/lufix.php 1 -
+/Kod_dlya_proekta/irden%201-3-5/js/jquery.js 4 http://gunbatarshapagy.com/Kod_dlya_proekta/irden%201-3-5/Lets%20go4.php
+/vendor/open-admin/leaflet/leaflet.js.map 1 -
+/inputs.php 1 -
+/chosen.php 2 -
+/makeasmtp.php 1 -
+/alfanew.php 1 -
+/xmrlpc.php 1 -
+/Kod_dlya_proekta/agsam%202-4-6/js/jquery.js 7 https://gunbatarshapagy.com/Kod_dlya_proekta/agsam%202-4-6/Elementary%20B%20B.php
+/wordpress/wp-includes/wlwmanifest.xml 3 -
+/test/wp-includes/wlwmanifest.xml 3 -
+/install.php 1 -
+/vendor/open-admin/axios/axios.min.map 1 -
+/themes.php 1 -
+/ws.php 1 -
+/404.php 1 -
+/moon.php 1 -
+/Kod_dlya_proekta/oylan%201-3-5/js/navigate-js.js 3 https://www.gunbatarshapagy.com/Kod_dlya_proekta/oylan%201-3-5/Elementary%20full%20A.php
+/misc/ajax.js 1 -
+/wp-load.php 1 -
+/wp-blog-header.php 1 -
+/demo/.env 1 -
+/Kod_dlya_proekta/oylan%202-4-6/js/transition-word.js 2 https://www.gunbatarshapagy.com/Kod_dlya_proekta/oylan%202-4-6/rus%20dili%202%20Nurjemal.php
+/updates.php 1 -
+/wp-content/plugins/google-seo-rank/module.php 1 -
+/js/elfinder/php/connector.minimal.php 1 -
+/radio.php 1 -
+/teachers/photos/21.png 2 http://gunbatarshapagy.com/teachers/Mugallymlarymyz.html
+/Kod_dlya_proekta/agsam%201-3-5/js/transition-word.js 6 https://www.gunbatarshapagy.com/Kod_dlya_proekta/agsam%201-3-5/advanced%20a%20shohrat.php
+/upfile.php 1 -
+/doc.php 1 -
+/Kod_dlya_proekta/irden%202-4-6/js/transition-word.js 9 https://www.gunbatarshapagy.com/Kod_dlya_proekta/irden%202-4-6/lets%20go%201%20Hezret.php
+/blog/wp-includes/wlwmanifest.xml 3 -
+/sito/wp-includes/wlwmanifest.xml 3 -
+/wp2/wp-includes/wlwmanifest.xml 3 -
+/Kod_dlya_proekta/sayla/js/jquery.js 19 http://gunbatarshapagy.com/Kod_dlya_proekta/sayla/irden%201-3-5.html
+/wp-sigunq.php 1 -
+/2019/wp-includes/wlwmanifest.xml 3 -
+/wp-login.php 5 -
+/wso112233.php 1 -
+/sitemap.xml 1 -
+/file-uploader/server/php/index.php 1 -
+/Kod_dlya_proekta/sayla/js/transition-word.js 19 http://gunbatarshapagy.com/Kod_dlya_proekta/sayla/irden%201-3-5.html
+/Kod_dlya_proekta/agsam%202-4-6/js/selector_js.js 7 https://gunbatarshapagy.com/Kod_dlya_proekta/agsam%202-4-6/Elementary%20B%20B.php
+/blog.php 1 -
+/Kod_dlya_proekta/irden%201-3-5/js/navigate-js.js 4 http://gunbatarshapagy.com/Kod_dlya_proekta/irden%201-3-5/Lets%20go4.php
+/Kod_dlya_proekta/irden%202-4-6/js/selector_js.js 9 https://www.gunbatarshapagy.com/Kod_dlya_proekta/irden%202-4-6/lets%20go%201%20Hezret.php
+/Kod_dlya_proekta/irden%202-4-6/js/jquery.js 9 https://www.gunbatarshapagy.com/Kod_dlya_proekta/irden%202-4-6/lets%20go%201%20Hezret.php
+/wp-cron.php 1 -
+/Kod_dlya_proekta/oylan%202-4-6/js/jquery.js 2 https://www.gunbatarshapagy.com/Kod_dlya_proekta/oylan%202-4-6/rus%20dili%202%20Nurjemal.php
+/Site15/js/jquery.min.js 4 http://gunbatarshapagy.com/Site15/gallery-1.html
+/plugins.php 1 -
+/news/wp-includes/wlwmanifest.xml 3 -
+/classsmtps.php 1 -
+/ae.php 1 -
+/wp.php 1 -
+/security.txt 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 61
+109.71.240.129 30 96 2929107 20240824132359
+95.85.100.78 18 60 326429 20240824134311
+93.171.220.148 13 104 15243435 20240824180842
+95.85.100.6 12 15 177733 20240825205032
+95.85.102.83 10 218 30113111 20240825164802
+95.85.100.159 9 62 175594 20240824160414
+95.85.101.55 9 29 2520787 20240824210908
+95.85.103.229 8 12 149056 20240825130713
+95.85.103.111 8 145 11558374 20240823135538
+95.85.101.171 7 63 118472 20240823144329
+66.249.66.17 0 5 174 
+66.249.66.16 0 3 0 
+135.148.195.12 1 1 53171 20240825035504
+95.85.102.9 0 1 57340 
+66.249.66.4 0 2 58 
+95.85.100.79 1 63 119907 20240824001728
+23.226.70.186 1 1 53171 20240825070507
+111.7.96.166 2 10 989027 20240824082049
+123.187.240.242 1 1 53171 20240824001507
+95.85.101.14 0 31 193313 
+144.217.135.148 1 1 53171 20240823194112
+95.85.100.180 4 6 93014 20240824100338
+5.188.62.140 1 1 53171 20240824083945
+95.85.101.211 0 8 0 
+95.85.100.176 5 128 10254414 20240824182718
+66.249.66.5 0 5 116 
+101.91.148.219 1 1 53171 20240824121218
+43.130.32.245 1 1 53171 20240823135829
+66.249.83.99 2 2 4248 20240824133558
+135.148.195.3 0 1 9663 
+95.85.102.228 7 11 273414 20240825132458
+95.85.101.182 2 66 60736 20240823112510
+45.86.202.73 3 3 159513 20240823112807
+46.228.199.158 1 1 53171 20240824033306
+185.135.77.4 7 46 3886855 20240824104223
+185.69.186.173 0 2 0 
+185.69.186.250 4 6 267920 20240825115825
+185.69.186.187 2 42 4200541 20240825062237
+64.226.99.135 1 1 53171 20240825103202
+135.148.195.16 0 1 12571 
+93.158.91.25 1 2 65742 20240824204347
+209.97.173.250 2 2 106342 20240825140950
+182.42.111.156 1 1 53171 20240824223558
+139.59.110.243 3 3 159513 20240825001914
+95.85.100.149 0 4 268892 
+66.249.66.6 0 8 174 
+74.207.228.178 2 59 4249224 20240824010701
+66.249.66.15 0 8 174 
+95.85.101.208 1 2 14434 20240824202841
+43.128.100.206 1 1 53171 20240825215011
+95.85.100.68 2 61 4634864 20240823203916
+95.85.100.201 4 72 76833 20240823155640
+49.51.206.130 1 1 53171 20240825113131
+49.51.72.76 1 1 53171 20240824223831
+182.42.104.32 1 1 53171 20240823125643
+54.193.63.37 1 1 53171 20240824044646
+93.159.230.89 1 1 53171 20240825195716
+95.85.101.43 4 57 73699 20240825183336
+95.85.100.113 5 45 4838754 20240825182534
+68.183.155.62 2 4 131484 20240825044627
+103.131.71.80 1 1 53171 20240824084644
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 4
+20240823 40 451 17211641 11
+20240824 105 699 41418444 25
+20240825 61 439 40788873 17
+20240826 0 1 0 0
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+30mn-1h 1
+5mn-15mn 3
+0s-30s 35
+2mn-5mn 3
+30s-2mn 11
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 42
+/ 67 3562457 43 25
+/Kod_dlya_proekta/result.php 19 143735 3 2
+/admin/auth/login 12 25476 4 3
+/admin/results 10 341646 0 2
+/fonts/kamerik205-heavy.woff2 9 154656 1 4
+/awstats/cgi-bin/awstats.pl 7 251557 1 1
+/admin/results/5/edit 6 63198 0 1
+/vendor/open-admin/open-admin/fonts/Open%20Sans%20Italic.woff2 5 58384 0 0
+/Kod_dlya_proekta/agsam%201-3-5/advanced%20a%20shohrat.php 5 72170 1 2
+/vendor/open-admin/open-admin/fonts/Open%20Sans%20Regular.woff2 5 56208 0 0
+/Kod_dlya_proekta/sayla/irden%201-3-5.html 4 0 0 0
+/Kod_dlya_proekta/oylan%201-3-5/Elementary%20full%20A.php 1 13821 0 0
+/Kod_dlya_proekta/irden%201-3-5/Elementary%20B%20Shohrat.php 1 16514 0 1
+/Kod_dlya_proekta/irden%201-3-5/rus%20dili%20kiciler-1%20Ayna.php 1 15317 0 0
+/vendor/open-admin/open-admin/css/styles.css.map 1 66361 0 0
+/Kod_dlya_proekta/sayla/irden%202-4-6.html 3 9214 0 0
+/Kod_dlya_proekta/irden%202-4-6/Beginner%20A%20N.php 1 13663 0 1
+/Kod_dlya_proekta/sayla/oylan%202-4-6.html 2 8815 0 0
+/Kod_dlya_proekta/agsam%202-4-6/Rus%20dili%204%20Ayna.php 3 36801 0 3
+/Kod_dlya_proekta/irden%202-4-6/lets%20begin%202-4-6%20Bibinyaz.php 1 15915 0 0
+/Kod_dlya_proekta/oylan%201-3-5/Pre%20intermediate%20B%20Shohrat.php 2 27014 0 0
+/Site15/gallery-1.html 3 24163 0 0
+/vendor/open-admin/open-admin/fonts/Open%20Sans%20Bold.woff2 2 14056 0 0
+/admin/ 2 69280 0 0
+/Kod_dlya_proekta/sayla/agsam%201-3-5.html 1 0 0 0
+/Kod_dlya_proekta/agsam%202-4-6/Elementary%20B%20B.php 3 43584 0 3
+/teachers/Mugallymlarymyz.html 2 8394 0 1
+/Kod_dlya_proekta/sayla/agsam%202-4-6.html 4 18414 0 0
+/vendor/open-admin/open-admin/fonts/Open%20Sans%20Light.woff2 2 13772 0 0
+/Kod_dlya_proekta/irden%201-3-5/beginner%20b%20nartach.php 1 12963 0 1
+/vendor/open-admin/bootstrap5/bootstrap.bundle.min.js.map 1 331017 0 0
+/Kod_dlya_proekta/irden%202-4-6/Lets%20go3%20a.php 1 15545 0 0
+/Kod_dlya_proekta/irden%202-4-6/lets%20go%201%20Hezret.php 2 33466 0 1
+/Kod_dlya_proekta/oylan%202-4-6/rus%20dili%202%20Nurjemal.php 2 23394 0 0
+/Kod_dlya_proekta/irden%201-3-5/Lets%20go4.php 1 16097 0 1
+/fonts/merriweather-regular-italic.woff2 1 19780 0 0
+/Kod_dlya_proekta/irden%202-4-6/rus%20dili%20mek%20tay-1%20nurjemal.php 1 13265 0 0
+/Kod_dlya_proekta/irden%202-4-6/Pre%20intermediate%20A%20shohrat.php 2 26578 0 1
+/Site15/gallery-5.html 2 34872 0 0
+/Site15/ 2 27518 0 0
+/vendor/open-admin/fontawesome/webfonts/fa-solid-900.woff2 5 312784 0 0
+/contact_us/contact%20us.html 1 5582 0 0
+END_SIDER

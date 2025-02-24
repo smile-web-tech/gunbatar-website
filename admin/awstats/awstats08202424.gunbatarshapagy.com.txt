@@ -1,0 +1,372 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 20240824 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.gunbatarshapagy.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2004                
+POS_TIME 2687                
+POS_VISITOR 9683                
+POS_DAY 10857               
+POS_DOMAIN 3328                
+POS_LOGIN 3662                
+POS_ROBOT 3817                
+POS_WORMS 4247                
+POS_EMAILSENDER 4378                
+POS_EMAILRECEIVER 4521                
+POS_SESSION 10942               
+POS_SIDER 11130               
+POS_FILETYPES 4656                
+POS_DOWNLOADS 4948                
+POS_OS 5014                
+POS_BROWSER 5168                
+POS_SCREENSIZE 5510                
+POS_UNKNOWNREFERER 5584                
+POS_UNKNOWNREFERERBROWSER 5700                
+POS_ORIGIN 5811                
+POS_SEREFERRALS 5946                
+POS_PAGEREFS 6124                
+POS_SEARCHWORDS 6272                
+POS_KEYWORDS 6424                
+POS_MISC 2351                
+POS_ERRORS 6483                
+POS_CLUSTER 3518                
+POS_SIDER_404 6620                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20240825001546 1981 560275 6277765159309
+FirstTime 20240824001507
+LastTime 20240824223831
+LastUpdate 20240825002107 814 0 813 0 0
+TotalVisits 25                  
+TotalUnique 23                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 31                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+AddToFavourites 0 0 0
+QuickTimeSupport 0 0 0
+JavascriptDisabled 0 0 0
+TotalMisc 0 0 0
+PDFSupport 0 0 0
+JavaEnabled 0 0 0
+FlashSupport 0 0 0
+DirectorSupport 0 0 0
+RealPlayerSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2 65 173078 0 2 61
+1 2 60 4249224 1 2 53174
+2 0 0 0 0 0 0
+3 1 1 53171 1 2 198189
+4 1 2 53229 1 2 53174
+5 0 1 58 0 0 0
+6 0 0 0 1 1 3
+7 0 0 0 2 2 106342
+8 4 13 1095369 2 3 2219
+9 0 1 0 1 3 64
+10 11 52 3979869 1 30 733618
+11 0 0 0 1 1 53171
+12 5 6 181664 3 15 27729
+13 42 131 2934468 17 41 110998
+14 0 0 0 1 5 2580
+15 0 0 0 0 0 0
+16 9 63 175594 1 23 24229
+17 12 84 7107668 3 11 32608
+18 11 193 19291875 1 16 512109
+19 0 0 0 2 3 53174
+20 2 5 80234 1 14 3409
+21 1 20 1936601 0 1 3
+22 2 2 106342 0 0 0
+23 0 0 0 2 4 12
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 8
+tm 62 493 29232312
+ru 22 68 2618549
+jp 7 46 3886855
+us 6 75 4360104
+cn 5 13 1148540
+se 1 2 65742
+vn 1 1 53171
+de 1 1 53171
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 8
+Googlebot/ 11 266720 20240824204623 0
+no_user_agent 3 159513 20240824134806 0
+python 2 106342 20240824070510 0
+Googlebot\-Image/ 2 12932 20240824143649 0
+bingbot/ 1 53171 20240824192959 0
+custo 1 53171 20240824111947 0
+YandexBot/ 1 24163 20240824161540 0
+bot[\s_+:,\.\;\/\\-] 1 58 20240824183444 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+txt 12 290 0 0
+jpg 138 15624078 0 0
+webp 5 1848100 0 0
+css 116 9257977 0 0
+Unknown 28 430320 0 0
+png 183 5560432 0 0
+woff2 23 513648 0 0
+html 11 71597 0 0
+php 41 1608995 0 0
+svg 22 43153 0 0
+map 2 397378 0 0
+js 118 6062476 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/ads.txt 10 0 580
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 7
+ios_iphone 4 4
+android 462 46
+linux 111 20
+win7 1 1
+macosx 10 2
+Unknown 12 0
+win10 99 32
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 13
+chrome127.0.6533.103 178 12
+safari13.0.3 4 4
+Unknown 12 0
+chrome126.0.0.0 104 13
+chrome100.0.4896.127 1 1
+chrome127.0.0.0 383 67
+chrome105.0.0.0 2 1
+chrome103.0.5060.53 1 1
+chrome51.0.2704.103 1 1
+chrome87.0.4280.88 8 1
+chrome91.0.4472.114 1 1
+chrome56.0.2924.87 2 2
+chrome96.0.4664.110 2 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+Google-adstxt 20240824211530
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Google-adstxt 20240824211530
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 43 57
+From1 0 0
+From2 5 9
+From3 0 0
+From4 57 633
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+www_google_com 5 5
+google_com 0 4
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+301 6 2106
+302 9 3706
+206 12 1272502
+404 98 294
+410 11 12188
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 31
+/Site15/js/jquery.min.js 3 http://gunbatarshapagy.com/Site15/gallery-1.html
+/misc/ajax.js 1 -
+/Kod_dlya_proekta/agsam%201-3-5/js/navigate-js.js 2 https://www.gunbatarshapagy.com/Kod_dlya_proekta/agsam%201-3-5/advanced%20a%20shohrat.php
+/Kod_dlya_proekta/irden%202-4-6/js/navigate-js.js 5 https://www.gunbatarshapagy.com/Kod_dlya_proekta/irden%202-4-6/lets%20go%201%20Hezret.php
+/Kod_dlya_proekta/agsam%202-4-6/js/transition-word.js 3 https://www.gunbatarshapagy.com/Kod_dlya_proekta/agsam%202-4-6/Rus%20dili%204%20Ayna.php
+/Kod_dlya_proekta/sayla/js/navigate-js.js 5 https://www.gunbatarshapagy.com/Kod_dlya_proekta/sayla/agsam%202-4-6.html
+/view-source: 1 -
+/Kod_dlya_proekta/irden%202-4-6/js/transition-word.js 5 https://www.gunbatarshapagy.com/Kod_dlya_proekta/irden%202-4-6/lets%20go%201%20Hezret.php
+/assets/file-uploader/server/php/index.php 1 -
+/teachers/photos/21.png 1 http://gunbatarshapagy.com/teachers/Mugallymlarymyz.html
+/Kod_dlya_proekta/agsam%201-3-5/js/jquery.js 2 https://www.gunbatarshapagy.com/Kod_dlya_proekta/agsam%201-3-5/advanced%20a%20shohrat.php
+/Kod_dlya_proekta/agsam%202-4-6/js/navigate-js.js 3 https://www.gunbatarshapagy.com/Kod_dlya_proekta/agsam%202-4-6/Rus%20dili%204%20Ayna.php
+/Kod_dlya_proekta/irden%202-4-6/js/jquery.js 5 https://www.gunbatarshapagy.com/Kod_dlya_proekta/irden%202-4-6/lets%20go%201%20Hezret.php
+/vendor/chartjs/dist/Chart.min.js 11 https://gunbatarshapagy.com/admin/results
+/robots.txt 10 -
+/Kod_dlya_proekta/agsam%202-4-6/js/jquery.js 3 https://www.gunbatarshapagy.com/Kod_dlya_proekta/agsam%202-4-6/Rus%20dili%204%20Ayna.php
+/Kod_dlya_proekta/sayla/js/transition-word.js 5 https://www.gunbatarshapagy.com/Kod_dlya_proekta/sayla/agsam%202-4-6.html
+/Kod_dlya_proekta/irden%202-4-6/js/selector_js.js 5 https://www.gunbatarshapagy.com/Kod_dlya_proekta/irden%202-4-6/lets%20go%201%20Hezret.php
+/Kod_dlya_proekta/agsam%201-3-5/js/selector_js.js 2 https://www.gunbatarshapagy.com/Kod_dlya_proekta/agsam%201-3-5/advanced%20a%20shohrat.php
+/admin 2 -
+/vendor/open-admin/axios/axios.min.map 1 -
+/Kod_dlya_proekta/agsam%202-4-6/js/selector_js.js 3 https://www.gunbatarshapagy.com/Kod_dlya_proekta/agsam%202-4-6/Rus%20dili%204%20Ayna.php
+/Kod_dlya_proekta/agsam%201-3-5/js/transition-word.js 2 https://www.gunbatarshapagy.com/Kod_dlya_proekta/agsam%201-3-5/advanced%20a%20shohrat.php
+/.git/config 2 -
+/administrator/index.php 1 -
+/wp-includes/wlwmanifest.xml 1 -
+/vendor/open-admin/leaflet/geosearch.umd.js.map 1 -
+/vendor/open-admin/leaflet/leaflet.js.map 1 -
+/Kod_dlya_proekta/sayla/js/jquery.js 5 https://www.gunbatarshapagy.com/Kod_dlya_proekta/sayla/agsam%202-4-6.html
+/Kod_dlya_proekta/sayla/js/selector_js.js 5 https://www.gunbatarshapagy.com/Kod_dlya_proekta/sayla/agsam%202-4-6.html
+/chosen.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 31
+109.71.240.129 21 67 2565378 20240824132359
+95.85.100.78 18 60 326429 20240824134311
+93.171.220.148 13 104 15243435 20240824180842
+95.85.101.55 9 29 2520787 20240824210908
+95.85.100.159 9 62 175594 20240824160414
+185.135.77.4 7 46 3886855 20240824104223
+95.85.100.176 5 128 10254414 20240824182718
+95.85.100.180 4 6 93014 20240824100338
+74.207.228.178 2 59 4249224 20240824010701
+95.85.102.228 2 2 22093 20240824123305
+46.228.199.158 1 1 53171 20240824033306
+185.69.186.173 0 2 0 
+95.85.100.79 1 63 119907 20240824001728
+95.85.101.208 1 2 14434 20240824202841
+93.158.91.25 1 2 65742 20240824204347
+123.187.240.242 1 1 53171 20240824001507
+66.249.66.5 0 3 58 
+66.249.66.4 0 1 58 
+66.249.66.17 0 1 0 
+66.249.66.15 0 5 174 
+54.193.63.37 1 1 53171 20240824044646
+101.91.148.219 1 1 53171 20240824121218
+5.188.62.140 1 1 53171 20240824083945
+49.51.72.76 1 1 53171 20240824223831
+103.131.71.80 1 1 53171 20240824084644
+111.7.96.166 2 10 989027 20240824082049
+66.249.83.99 2 2 4248 20240824133558
+95.85.101.14 0 31 193313 
+66.249.66.6 0 2 0 
+95.85.100.149 0 4 268892 
+182.42.111.156 1 1 53171 20240824223558
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 1
+20240824 105 699 41418444 25
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+2mn-5mn 2
+0s-30s 16
+30mn-1h 1
+30s-2mn 5
+5mn-15mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 29
+/ 26 1382446 18 11
+/admin/auth/login 12 25476 4 3
+/admin/results 10 341646 0 2
+/admin/results/5/edit 6 63198 0 1
+/vendor/open-admin/fontawesome/webfonts/fa-solid-900.woff2 5 312784 0 0
+/Kod_dlya_proekta/result.php 5 37825 1 0
+/vendor/open-admin/open-admin/fonts/Open%20Sans%20Regular.woff2 5 56208 0 0
+/vendor/open-admin/open-admin/fonts/Open%20Sans%20Italic.woff2 5 58384 0 0
+/fonts/kamerik205-heavy.woff2 3 38664 1 2
+/Site15/gallery-5.html 2 34872 0 0
+/Kod_dlya_proekta/sayla/oylan%202-4-6.html 1 0 0 0
+/Kod_dlya_proekta/agsam%202-4-6/Rus%20dili%204%20Ayna.php 1 12267 0 1
+/vendor/open-admin/open-admin/css/styles.css.map 1 66361 0 0
+/Site15/gallery-1.html 2 0 0 0
+/vendor/open-admin/bootstrap5/bootstrap.bundle.min.js.map 1 331017 0 0
+/fonts/merriweather-regular-italic.woff2 1 19780 0 0
+/Kod_dlya_proekta/irden%202-4-6/lets%20go%201%20Hezret.php 2 33466 0 1
+/admin/ 2 69280 0 0
+/Kod_dlya_proekta/irden%202-4-6/Pre%20intermediate%20A%20shohrat.php 1 13289 0 1
+/Kod_dlya_proekta/agsam%202-4-6/Elementary%20B%20B.php 1 14528 0 1
+/vendor/open-admin/open-admin/fonts/Open%20Sans%20Bold.woff2 2 14056 0 0
+/Kod_dlya_proekta/sayla/agsam%202-4-6.html 1 9207 0 0
+/Kod_dlya_proekta/agsam%201-3-5/advanced%20a%20shohrat.php 1 14434 1 1
+/Kod_dlya_proekta/sayla/irden%202-4-6.html 2 0 0 0
+/vendor/open-admin/open-admin/fonts/Open%20Sans%20Light.woff2 2 13772 0 0
+/teachers/Mugallymlarymyz.html 1 0 0 1
+/Kod_dlya_proekta/irden%202-4-6/lets%20begin%202-4-6%20Bibinyaz.php 1 15915 0 0
+/Kod_dlya_proekta/irden%202-4-6/Lets%20go3%20a.php 1 15545 0 0
+/Site15/ 2 27518 0 0
+END_SIDER
