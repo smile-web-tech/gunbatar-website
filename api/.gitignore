@@ -1,0 +1,6 @@
+# Runtime data — never commit the database or uploaded media.
+data/*.sqlite
+data/*.sqlite-wal
+data/*.sqlite-shm
+uploads/*
+!uploads/.htaccess

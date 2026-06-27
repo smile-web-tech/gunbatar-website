@@ -1,0 +1,142 @@
+@import 'tailwindcss';
+
+/*
+  "Günbatar Şapagy" — light-only, professional palette.
+  No dark mode, no blue theme, no gradients. Warm neutral surfaces with a
+  single sunset-orange accent (fits the brand name: "western glow").
+*/
+@theme {
+  /* Warm neutral "ink" scale for text + surfaces */
+  --color-ink-50: #f8f7f5;
+  --color-ink-100: #efedea;
+  --color-ink-200: #e2dfd9;
+  --color-ink-300: #cbc6bd;
+  --color-ink-400: #a39d92;
+  --color-ink-500: #79736a;
+  --color-ink-600: #57514a;
+  --color-ink-700: #403b35;
+  --color-ink-800: #2a2723;
+  --color-ink-900: #1c1a17;
+
+  /* Single accent: sunset orange */
+  --color-accent-50: #fff5ed;
+  --color-accent-100: #ffe7d3;
+  --color-accent-200: #ffcba8;
+  --color-accent-400: #ff9a4d;
+  --color-accent-500: #f97316;
+  --color-accent-600: #ea580c;
+  --color-accent-700: #c2410c;
+
+  --font-sans: 'Montserrat', 'Open Sans', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Montserrat', ui-sans-serif, system-ui, sans-serif;
+
+  --radius-card: 1rem;
+}
+
+@layer base {
+  :root {
+    --bg: #f5f3ef; /* soft warm off-white page (not stark white) */
+    --bg-alt: #eceae4; /* slightly deeper band for alternating sections */
+    --fg: #1c1a17; /* near-black warm text */
+    --muted: #5f594f; /* readable muted text (AA on light) */
+    --card: #ffffff; /* white cards pop against the page */
+    --border: #e3dfd7;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    margin: 0;
+    background-color: var(--bg);
+    color: var(--fg);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+    }
+  }
+}
+
+@layer utilities {
+  .bg-base {
+    background-color: var(--bg);
+  }
+  .bg-alt {
+    background-color: var(--bg-alt);
+  }
+  .bg-card {
+    background-color: var(--card);
+  }
+  .text-fg {
+    color: var(--fg);
+  }
+  .text-muted {
+    color: var(--muted);
+  }
+  .border-base {
+    border-color: var(--border);
+  }
+}
+
+/* ---- Hero 3D mouse parallax (from the original, modernised) ---- */
+.layers {
+  perspective: 1000px;
+  overflow: hidden;
+}
+.layers__container {
+  position: relative;
+  height: 100svh;
+  min-height: 560px;
+  transform-style: preserve-3d;
+  transform: rotateX(var(--move-y, 0deg)) rotateY(var(--move-x, 0deg));
+  will-change: transform;
+  transition: transform 0.2s ease-out;
+}
+.layers__item {
+  position: absolute;
+  inset: -6vw;
+  background-size: cover;
+  background-position: center;
+}
+/* sky sits at the back; building + content float toward the viewer */
+.layer-sky {
+  transform: translateZ(-40px) scale(1.15);
+}
+.layer-building {
+  transform: translateZ(60px) scale(0.95);
+}
+.layer-content {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateZ(150px) scale(0.82);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .layers__container {
+    transform: none !important;
+  }
+  .layer-sky,
+  .layer-building {
+    transform: none;
+  }
+  .layer-content {
+    transform: none;
+  }
+}

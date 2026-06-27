@@ -1,0 +1,32 @@
+# dependencies
+node_modules/
+**/node_modules/
+
+# build output
+web/dist/
+dist/
+
+# deploy artifacts (build outputs, not source)
+deploy-sweb/
+gunbatar-deploy.zip
+gunbatar-deploy.tar.gz
+
+# --- API secrets & runtime data (NEVER commit) ---
+api/config.php
+api/data/*.sqlite
+api/data/*.sqlite-wal
+api/data/*.sqlite-shm
+api/uploads/*
+!api/uploads/.htaccess
+
+# env / logs
+.env
+.env.local
+*.log
+
+# editor / OS / tooling
+.DS_Store
+Thumbs.db
+.claude/
+*.bak
+web/_*.mjs

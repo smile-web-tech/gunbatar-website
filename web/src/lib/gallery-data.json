@@ -1,0 +1,386 @@
+{
+  "categories": [
+    {
+      "id": "dabaralar",
+      "label": "Dabaralar & çäreler",
+      "count": 7,
+      "images": [
+        {
+          "thumb": "/gallery/dabaralar/t/1.webp",
+          "full": "/gallery/dabaralar/1.webp",
+          "w": 720,
+          "h": 540
+        },
+        {
+          "thumb": "/gallery/dabaralar/t/2.webp",
+          "full": "/gallery/dabaralar/2.webp",
+          "w": 720,
+          "h": 540
+        },
+        {
+          "thumb": "/gallery/dabaralar/t/3.webp",
+          "full": "/gallery/dabaralar/3.webp",
+          "w": 720,
+          "h": 540
+        },
+        {
+          "thumb": "/gallery/dabaralar/t/4.webp",
+          "full": "/gallery/dabaralar/4.webp",
+          "w": 720,
+          "h": 540
+        },
+        {
+          "thumb": "/gallery/dabaralar/t/5.webp",
+          "full": "/gallery/dabaralar/5.webp",
+          "w": 720,
+          "h": 540
+        },
+        {
+          "thumb": "/gallery/dabaralar/t/6.webp",
+          "full": "/gallery/dabaralar/6.webp",
+          "w": 720,
+          "h": 540
+        },
+        {
+          "thumb": "/gallery/dabaralar/t/7.webp",
+          "full": "/gallery/dabaralar/7.webp",
+          "w": 720,
+          "h": 540
+        }
+      ]
+    },
+    {
+      "id": "gyzykly",
+      "label": "Gyzykly pursatlar",
+      "count": 22,
+      "images": [
+        {
+          "thumb": "/gallery/gyzykly/t/1.webp",
+          "full": "/gallery/gyzykly/1.webp",
+          "w": 720,
+          "h": 1281
+        },
+        {
+          "thumb": "/gallery/gyzykly/t/2.webp",
+          "full": "/gallery/gyzykly/2.webp",
+          "w": 720,
+          "h": 405
+        },
+        {
+          "thumb": "/gallery/gyzykly/t/3.webp",
+          "full": "/gallery/gyzykly/3.webp",
+          "w": 720,
+          "h": 960
+        },
+        {
+          "thumb": "/gallery/gyzykly/t/4.webp",
+          "full": "/gallery/gyzykly/4.webp",
+          "w": 720,
+          "h": 540
+        },
+        {
+          "thumb": "/gallery/gyzykly/t/5.webp",
+          "full": "/gallery/gyzykly/5.webp",
+          "w": 720,
+          "h": 960
+        },
+        {
+          "thumb": "/gallery/gyzykly/t/6.webp",
+          "full": "/gallery/gyzykly/6.webp",
+          "w": 720,
+          "h": 540
+        },
+        {
+          "thumb": "/gallery/gyzykly/t/7.webp",
+          "full": "/gallery/gyzykly/7.webp",
+          "w": 720,
+          "h": 960
+        },
+        {
+          "thumb": "/gallery/gyzykly/t/8.webp",
+          "full": "/gallery/gyzykly/8.webp",
+          "w": 720,
+          "h": 540
+        },
+        {
+          "thumb": "/gallery/gyzykly/t/9.webp",
+          "full": "/gallery/gyzykly/9.webp",
+          "w": 720,
+          "h": 540
+        },
+        {
+          "thumb": "/gallery/gyzykly/t/10.webp",
+          "full": "/gallery/gyzykly/10.webp",
+          "w": 720,
+          "h": 960
+        },
+        {
+          "thumb": "/gallery/gyzykly/t/11.webp",
+          "full": "/gallery/gyzykly/11.webp",
+          "w": 720,
+          "h": 541
+        },
+        {
+          "thumb": "/gallery/gyzykly/t/12.webp",
+          "full": "/gallery/gyzykly/12.webp",
+          "w": 720,
+          "h": 960
+        },
+        {
+          "thumb": "/gallery/gyzykly/t/13.webp",
+          "full": "/gallery/gyzykly/13.webp",
+          "w": 720,
+          "h": 540
+        },
+        {
+          "thumb": "/gallery/gyzykly/t/14.webp",
+          "full": "/gallery/gyzykly/14.webp",
+          "w": 720,
+          "h": 540
+        },
+        {
+          "thumb": "/gallery/gyzykly/t/15.webp",
+          "full": "/gallery/gyzykly/15.webp",
+          "w": 720,
+          "h": 540
+        },
+        {
+          "thumb": "/gallery/gyzykly/t/16.webp",
+          "full": "/gallery/gyzykly/16.webp",
+          "w": 720,
+          "h": 960
+        },
+        {
+          "thumb": "/gallery/gyzykly/t/17.webp",
+          "full": "/gallery/gyzykly/17.webp",
+          "w": 720,
+          "h": 540
+        },
+        {
+          "thumb": "/gallery/gyzykly/t/18.webp",
+          "full": "/gallery/gyzykly/18.webp",
+          "w": 720,
+          "h": 960
+        },
+        {
+          "thumb": "/gallery/gyzykly/t/19.webp",
+          "full": "/gallery/gyzykly/19.webp",
+          "w": 720,
+          "h": 960
+        },
+        {
+          "thumb": "/gallery/gyzykly/t/20.webp",
+          "full": "/gallery/gyzykly/20.webp",
+          "w": 720,
+          "h": 540
+        },
+        {
+          "thumb": "/gallery/gyzykly/t/21.webp",
+          "full": "/gallery/gyzykly/21.webp",
+          "w": 720,
+          "h": 961
+        },
+        {
+          "thumb": "/gallery/gyzykly/t/22.webp",
+          "full": "/gallery/gyzykly/22.webp",
+          "w": 720,
+          "h": 960
+        }
+      ]
+    },
+    {
+      "id": "yatdan",
+      "label": "Ýatdan çykmajak pursatlar",
+      "count": 15,
+      "images": [
+        {
+          "thumb": "/gallery/yatdan/t/1.webp",
+          "full": "/gallery/yatdan/1.webp",
+          "w": 720,
+          "h": 405
+        },
+        {
+          "thumb": "/gallery/yatdan/t/2.webp",
+          "full": "/gallery/yatdan/2.webp",
+          "w": 720,
+          "h": 540
+        },
+        {
+          "thumb": "/gallery/yatdan/t/3.webp",
+          "full": "/gallery/yatdan/3.webp",
+          "w": 720,
+          "h": 540
+        },
+        {
+          "thumb": "/gallery/yatdan/t/4.webp",
+          "full": "/gallery/yatdan/4.webp",
+          "w": 720,
+          "h": 540
+        },
+        {
+          "thumb": "/gallery/yatdan/t/5.webp",
+          "full": "/gallery/yatdan/5.webp",
+          "w": 720,
+          "h": 540
+        },
+        {
+          "thumb": "/gallery/yatdan/t/6.webp",
+          "full": "/gallery/yatdan/6.webp",
+          "w": 720,
+          "h": 540
+        },
+        {
+          "thumb": "/gallery/yatdan/t/7.webp",
+          "full": "/gallery/yatdan/7.webp",
+          "w": 720,
+          "h": 540
+        },
+        {
+          "thumb": "/gallery/yatdan/t/8.webp",
+          "full": "/gallery/yatdan/8.webp",
+          "w": 720,
+          "h": 539
+        },
+        {
+          "thumb": "/gallery/yatdan/t/9.webp",
+          "full": "/gallery/yatdan/9.webp",
+          "w": 720,
+          "h": 540
+        },
+        {
+          "thumb": "/gallery/yatdan/t/10.webp",
+          "full": "/gallery/yatdan/10.webp",
+          "w": 720,
+          "h": 540
+        },
+        {
+          "thumb": "/gallery/yatdan/t/11.webp",
+          "full": "/gallery/yatdan/11.webp",
+          "w": 720,
+          "h": 540
+        },
+        {
+          "thumb": "/gallery/yatdan/t/12.webp",
+          "full": "/gallery/yatdan/12.webp",
+          "w": 720,
+          "h": 540
+        },
+        {
+          "thumb": "/gallery/yatdan/t/13.webp",
+          "full": "/gallery/yatdan/13.webp",
+          "w": 720,
+          "h": 540
+        },
+        {
+          "thumb": "/gallery/yatdan/t/14.webp",
+          "full": "/gallery/yatdan/14.webp",
+          "w": 720,
+          "h": 540
+        },
+        {
+          "thumb": "/gallery/yatdan/t/15.webp",
+          "full": "/gallery/yatdan/15.webp",
+          "w": 720,
+          "h": 540
+        }
+      ]
+    },
+    {
+      "id": "bilelikde",
+      "label": "Bilelikde",
+      "count": 15,
+      "images": [
+        {
+          "thumb": "/gallery/bilelikde/t/1.webp",
+          "full": "/gallery/bilelikde/1.webp",
+          "w": 720,
+          "h": 960
+        },
+        {
+          "thumb": "/gallery/bilelikde/t/2.webp",
+          "full": "/gallery/bilelikde/2.webp",
+          "w": 720,
+          "h": 540
+        },
+        {
+          "thumb": "/gallery/bilelikde/t/3.webp",
+          "full": "/gallery/bilelikde/3.webp",
+          "w": 720,
+          "h": 540
+        },
+        {
+          "thumb": "/gallery/bilelikde/t/4.webp",
+          "full": "/gallery/bilelikde/4.webp",
+          "w": 522,
+          "h": 391
+        },
+        {
+          "thumb": "/gallery/bilelikde/t/5.webp",
+          "full": "/gallery/bilelikde/5.webp",
+          "w": 720,
+          "h": 540
+        },
+        {
+          "thumb": "/gallery/bilelikde/t/6.webp",
+          "full": "/gallery/bilelikde/6.webp",
+          "w": 720,
+          "h": 960
+        },
+        {
+          "thumb": "/gallery/bilelikde/t/7.webp",
+          "full": "/gallery/bilelikde/7.webp",
+          "w": 720,
+          "h": 960
+        },
+        {
+          "thumb": "/gallery/bilelikde/t/8.webp",
+          "full": "/gallery/bilelikde/8.webp",
+          "w": 720,
+          "h": 540
+        },
+        {
+          "thumb": "/gallery/bilelikde/t/9.webp",
+          "full": "/gallery/bilelikde/9.webp",
+          "w": 720,
+          "h": 960
+        },
+        {
+          "thumb": "/gallery/bilelikde/t/10.webp",
+          "full": "/gallery/bilelikde/10.webp",
+          "w": 720,
+          "h": 540
+        },
+        {
+          "thumb": "/gallery/bilelikde/t/11.webp",
+          "full": "/gallery/bilelikde/11.webp",
+          "w": 550,
+          "h": 558
+        },
+        {
+          "thumb": "/gallery/bilelikde/t/12.webp",
+          "full": "/gallery/bilelikde/12.webp",
+          "w": 720,
+          "h": 540
+        },
+        {
+          "thumb": "/gallery/bilelikde/t/13.webp",
+          "full": "/gallery/bilelikde/13.webp",
+          "w": 720,
+          "h": 540
+        },
+        {
+          "thumb": "/gallery/bilelikde/t/14.webp",
+          "full": "/gallery/bilelikde/14.webp",
+          "w": 720,
+          "h": 540
+        },
+        {
+          "thumb": "/gallery/bilelikde/t/15.webp",
+          "full": "/gallery/bilelikde/15.webp",
+          "w": 720,
+          "h": 540
+        }
+      ]
+    }
+  ]
+}

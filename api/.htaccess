@@ -1,0 +1,24 @@
+# Route non-file requests to the API front controller; serve real files (uploads) directly.
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /api/
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+  RewriteRule ^ index.php [L]
+</IfModule>
+
+# Allow larger uploads (videos). Adjust to your hosting limits.
+<IfModule mod_php.c>
+  php_value upload_max_filesize 64M
+  php_value post_max_size 72M
+  php_value max_execution_time 120
+</IfModule>
+
+# Never expose the database, config, sources or seed.
+<FilesMatch "\.(sqlite|sqlite-wal|sqlite-shm|json|md)$">
+  Require all denied
+</FilesMatch>
+<FilesMatch "^(config|router)\.php$">
+  Require all denied
+</FilesMatch>

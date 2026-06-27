@@ -1,0 +1,813 @@
+{
+  "categories": [
+    {
+      "id": "dabaralar",
+      "label": "Dabaralar & çäreler",
+      "sort": 0
+    },
+    {
+      "id": "gyzykly",
+      "label": "Gyzykly pursatlar",
+      "sort": 1
+    },
+    {
+      "id": "yatdan",
+      "label": "Ýatdan çykmajak pursatlar",
+      "sort": 2
+    },
+    {
+      "id": "bilelikde",
+      "label": "Bilelikde",
+      "sort": 3
+    }
+  ],
+  "media": [
+    {
+      "id": "vid-1",
+      "type": "video",
+      "category": "dabaralar",
+      "title": "Dabaralar — wideo",
+      "thumb": "/smm/videos/v1.webp",
+      "src": "/smm/videos/v1.mp4",
+      "w": 1280,
+      "h": 720
+    },
+    {
+      "id": "seed-1",
+      "type": "image",
+      "category": "dabaralar",
+      "title": "Dabaralar & çäreler",
+      "thumb": "/gallery/dabaralar/t/1.webp",
+      "src": "/gallery/dabaralar/1.webp",
+      "w": 720,
+      "h": 540
+    },
+    {
+      "id": "seed-2",
+      "type": "image",
+      "category": "dabaralar",
+      "title": "Dabaralar & çäreler",
+      "thumb": "/gallery/dabaralar/t/2.webp",
+      "src": "/gallery/dabaralar/2.webp",
+      "w": 720,
+      "h": 540
+    },
+    {
+      "id": "seed-3",
+      "type": "image",
+      "category": "dabaralar",
+      "title": "Dabaralar & çäreler",
+      "thumb": "/gallery/dabaralar/t/3.webp",
+      "src": "/gallery/dabaralar/3.webp",
+      "w": 720,
+      "h": 540
+    },
+    {
+      "id": "seed-4",
+      "type": "image",
+      "category": "dabaralar",
+      "title": "Dabaralar & çäreler",
+      "thumb": "/gallery/dabaralar/t/4.webp",
+      "src": "/gallery/dabaralar/4.webp",
+      "w": 720,
+      "h": 540
+    },
+    {
+      "id": "seed-5",
+      "type": "image",
+      "category": "dabaralar",
+      "title": "Dabaralar & çäreler",
+      "thumb": "/gallery/dabaralar/t/5.webp",
+      "src": "/gallery/dabaralar/5.webp",
+      "w": 720,
+      "h": 540
+    },
+    {
+      "id": "seed-6",
+      "type": "image",
+      "category": "dabaralar",
+      "title": "Dabaralar & çäreler",
+      "thumb": "/gallery/dabaralar/t/6.webp",
+      "src": "/gallery/dabaralar/6.webp",
+      "w": 720,
+      "h": 540
+    },
+    {
+      "id": "seed-7",
+      "type": "image",
+      "category": "dabaralar",
+      "title": "Dabaralar & çäreler",
+      "thumb": "/gallery/dabaralar/t/7.webp",
+      "src": "/gallery/dabaralar/7.webp",
+      "w": 720,
+      "h": 540
+    },
+    {
+      "id": "seed-8",
+      "type": "image",
+      "category": "gyzykly",
+      "title": "Gyzykly pursatlar",
+      "thumb": "/gallery/gyzykly/t/1.webp",
+      "src": "/gallery/gyzykly/1.webp",
+      "w": 720,
+      "h": 1281
+    },
+    {
+      "id": "seed-9",
+      "type": "image",
+      "category": "gyzykly",
+      "title": "Gyzykly pursatlar",
+      "thumb": "/gallery/gyzykly/t/2.webp",
+      "src": "/gallery/gyzykly/2.webp",
+      "w": 720,
+      "h": 405
+    },
+    {
+      "id": "seed-10",
+      "type": "image",
+      "category": "gyzykly",
+      "title": "Gyzykly pursatlar",
+      "thumb": "/gallery/gyzykly/t/3.webp",
+      "src": "/gallery/gyzykly/3.webp",
+      "w": 720,
+      "h": 960
+    },
+    {
+      "id": "seed-11",
+      "type": "image",
+      "category": "gyzykly",
+      "title": "Gyzykly pursatlar",
+      "thumb": "/gallery/gyzykly/t/4.webp",
+      "src": "/gallery/gyzykly/4.webp",
+      "w": 720,
+      "h": 540
+    },
+    {
+      "id": "seed-12",
+      "type": "image",
+      "category": "gyzykly",
+      "title": "Gyzykly pursatlar",
+      "thumb": "/gallery/gyzykly/t/5.webp",
+      "src": "/gallery/gyzykly/5.webp",
+      "w": 720,
+      "h": 960
+    },
+    {
+      "id": "seed-13",
+      "type": "image",
+      "category": "gyzykly",
+      "title": "Gyzykly pursatlar",
+      "thumb": "/gallery/gyzykly/t/6.webp",
+      "src": "/gallery/gyzykly/6.webp",
+      "w": 720,
+      "h": 540
+    },
+    {
+      "id": "seed-14",
+      "type": "image",
+      "category": "gyzykly",
+      "title": "Gyzykly pursatlar",
+      "thumb": "/gallery/gyzykly/t/7.webp",
+      "src": "/gallery/gyzykly/7.webp",
+      "w": 720,
+      "h": 960
+    },
+    {
+      "id": "seed-15",
+      "type": "image",
+      "category": "gyzykly",
+      "title": "Gyzykly pursatlar",
+      "thumb": "/gallery/gyzykly/t/8.webp",
+      "src": "/gallery/gyzykly/8.webp",
+      "w": 720,
+      "h": 540
+    },
+    {
+      "id": "seed-16",
+      "type": "image",
+      "category": "gyzykly",
+      "title": "Gyzykly pursatlar",
+      "thumb": "/gallery/gyzykly/t/9.webp",
+      "src": "/gallery/gyzykly/9.webp",
+      "w": 720,
+      "h": 540
+    },
+    {
+      "id": "seed-17",
+      "type": "image",
+      "category": "gyzykly",
+      "title": "Gyzykly pursatlar",
+      "thumb": "/gallery/gyzykly/t/10.webp",
+      "src": "/gallery/gyzykly/10.webp",
+      "w": 720,
+      "h": 960
+    },
+    {
+      "id": "seed-18",
+      "type": "image",
+      "category": "gyzykly",
+      "title": "Gyzykly pursatlar",
+      "thumb": "/gallery/gyzykly/t/11.webp",
+      "src": "/gallery/gyzykly/11.webp",
+      "w": 720,
+      "h": 541
+    },
+    {
+      "id": "seed-19",
+      "type": "image",
+      "category": "gyzykly",
+      "title": "Gyzykly pursatlar",
+      "thumb": "/gallery/gyzykly/t/12.webp",
+      "src": "/gallery/gyzykly/12.webp",
+      "w": 720,
+      "h": 960
+    },
+    {
+      "id": "seed-20",
+      "type": "image",
+      "category": "gyzykly",
+      "title": "Gyzykly pursatlar",
+      "thumb": "/gallery/gyzykly/t/13.webp",
+      "src": "/gallery/gyzykly/13.webp",
+      "w": 720,
+      "h": 540
+    },
+    {
+      "id": "seed-21",
+      "type": "image",
+      "category": "gyzykly",
+      "title": "Gyzykly pursatlar",
+      "thumb": "/gallery/gyzykly/t/14.webp",
+      "src": "/gallery/gyzykly/14.webp",
+      "w": 720,
+      "h": 540
+    },
+    {
+      "id": "seed-22",
+      "type": "image",
+      "category": "gyzykly",
+      "title": "Gyzykly pursatlar",
+      "thumb": "/gallery/gyzykly/t/15.webp",
+      "src": "/gallery/gyzykly/15.webp",
+      "w": 720,
+      "h": 540
+    },
+    {
+      "id": "seed-23",
+      "type": "image",
+      "category": "gyzykly",
+      "title": "Gyzykly pursatlar",
+      "thumb": "/gallery/gyzykly/t/16.webp",
+      "src": "/gallery/gyzykly/16.webp",
+      "w": 720,
+      "h": 960
+    },
+    {
+      "id": "seed-24",
+      "type": "image",
+      "category": "gyzykly",
+      "title": "Gyzykly pursatlar",
+      "thumb": "/gallery/gyzykly/t/17.webp",
+      "src": "/gallery/gyzykly/17.webp",
+      "w": 720,
+      "h": 540
+    },
+    {
+      "id": "seed-25",
+      "type": "image",
+      "category": "gyzykly",
+      "title": "Gyzykly pursatlar",
+      "thumb": "/gallery/gyzykly/t/18.webp",
+      "src": "/gallery/gyzykly/18.webp",
+      "w": 720,
+      "h": 960
+    },
+    {
+      "id": "seed-26",
+      "type": "image",
+      "category": "gyzykly",
+      "title": "Gyzykly pursatlar",
+      "thumb": "/gallery/gyzykly/t/19.webp",
+      "src": "/gallery/gyzykly/19.webp",
+      "w": 720,
+      "h": 960
+    },
+    {
+      "id": "seed-27",
+      "type": "image",
+      "category": "gyzykly",
+      "title": "Gyzykly pursatlar",
+      "thumb": "/gallery/gyzykly/t/20.webp",
+      "src": "/gallery/gyzykly/20.webp",
+      "w": 720,
+      "h": 540
+    },
+    {
+      "id": "seed-28",
+      "type": "image",
+      "category": "gyzykly",
+      "title": "Gyzykly pursatlar",
+      "thumb": "/gallery/gyzykly/t/21.webp",
+      "src": "/gallery/gyzykly/21.webp",
+      "w": 720,
+      "h": 961
+    },
+    {
+      "id": "seed-29",
+      "type": "image",
+      "category": "gyzykly",
+      "title": "Gyzykly pursatlar",
+      "thumb": "/gallery/gyzykly/t/22.webp",
+      "src": "/gallery/gyzykly/22.webp",
+      "w": 720,
+      "h": 960
+    },
+    {
+      "id": "seed-30",
+      "type": "image",
+      "category": "yatdan",
+      "title": "Ýatdan çykmajak pursatlar",
+      "thumb": "/gallery/yatdan/t/1.webp",
+      "src": "/gallery/yatdan/1.webp",
+      "w": 720,
+      "h": 405
+    },
+    {
+      "id": "seed-31",
+      "type": "image",
+      "category": "yatdan",
+      "title": "Ýatdan çykmajak pursatlar",
+      "thumb": "/gallery/yatdan/t/2.webp",
+      "src": "/gallery/yatdan/2.webp",
+      "w": 720,
+      "h": 540
+    },
+    {
+      "id": "seed-32",
+      "type": "image",
+      "category": "yatdan",
+      "title": "Ýatdan çykmajak pursatlar",
+      "thumb": "/gallery/yatdan/t/3.webp",
+      "src": "/gallery/yatdan/3.webp",
+      "w": 720,
+      "h": 540
+    },
+    {
+      "id": "seed-33",
+      "type": "image",
+      "category": "yatdan",
+      "title": "Ýatdan çykmajak pursatlar",
+      "thumb": "/gallery/yatdan/t/4.webp",
+      "src": "/gallery/yatdan/4.webp",
+      "w": 720,
+      "h": 540
+    },
+    {
+      "id": "seed-34",
+      "type": "image",
+      "category": "yatdan",
+      "title": "Ýatdan çykmajak pursatlar",
+      "thumb": "/gallery/yatdan/t/5.webp",
+      "src": "/gallery/yatdan/5.webp",
+      "w": 720,
+      "h": 540
+    },
+    {
+      "id": "seed-35",
+      "type": "image",
+      "category": "yatdan",
+      "title": "Ýatdan çykmajak pursatlar",
+      "thumb": "/gallery/yatdan/t/6.webp",
+      "src": "/gallery/yatdan/6.webp",
+      "w": 720,
+      "h": 540
+    },
+    {
+      "id": "seed-36",
+      "type": "image",
+      "category": "yatdan",
+      "title": "Ýatdan çykmajak pursatlar",
+      "thumb": "/gallery/yatdan/t/7.webp",
+      "src": "/gallery/yatdan/7.webp",
+      "w": 720,
+      "h": 540
+    },
+    {
+      "id": "seed-37",
+      "type": "image",
+      "category": "yatdan",
+      "title": "Ýatdan çykmajak pursatlar",
+      "thumb": "/gallery/yatdan/t/8.webp",
+      "src": "/gallery/yatdan/8.webp",
+      "w": 720,
+      "h": 539
+    },
+    {
+      "id": "seed-38",
+      "type": "image",
+      "category": "yatdan",
+      "title": "Ýatdan çykmajak pursatlar",
+      "thumb": "/gallery/yatdan/t/9.webp",
+      "src": "/gallery/yatdan/9.webp",
+      "w": 720,
+      "h": 540
+    },
+    {
+      "id": "seed-39",
+      "type": "image",
+      "category": "yatdan",
+      "title": "Ýatdan çykmajak pursatlar",
+      "thumb": "/gallery/yatdan/t/10.webp",
+      "src": "/gallery/yatdan/10.webp",
+      "w": 720,
+      "h": 540
+    },
+    {
+      "id": "seed-40",
+      "type": "image",
+      "category": "yatdan",
+      "title": "Ýatdan çykmajak pursatlar",
+      "thumb": "/gallery/yatdan/t/11.webp",
+      "src": "/gallery/yatdan/11.webp",
+      "w": 720,
+      "h": 540
+    },
+    {
+      "id": "seed-41",
+      "type": "image",
+      "category": "yatdan",
+      "title": "Ýatdan çykmajak pursatlar",
+      "thumb": "/gallery/yatdan/t/12.webp",
+      "src": "/gallery/yatdan/12.webp",
+      "w": 720,
+      "h": 540
+    },
+    {
+      "id": "seed-42",
+      "type": "image",
+      "category": "yatdan",
+      "title": "Ýatdan çykmajak pursatlar",
+      "thumb": "/gallery/yatdan/t/13.webp",
+      "src": "/gallery/yatdan/13.webp",
+      "w": 720,
+      "h": 540
+    },
+    {
+      "id": "seed-43",
+      "type": "image",
+      "category": "yatdan",
+      "title": "Ýatdan çykmajak pursatlar",
+      "thumb": "/gallery/yatdan/t/14.webp",
+      "src": "/gallery/yatdan/14.webp",
+      "w": 720,
+      "h": 540
+    },
+    {
+      "id": "seed-44",
+      "type": "image",
+      "category": "yatdan",
+      "title": "Ýatdan çykmajak pursatlar",
+      "thumb": "/gallery/yatdan/t/15.webp",
+      "src": "/gallery/yatdan/15.webp",
+      "w": 720,
+      "h": 540
+    },
+    {
+      "id": "seed-45",
+      "type": "image",
+      "category": "bilelikde",
+      "title": "Bilelikde",
+      "thumb": "/gallery/bilelikde/t/1.webp",
+      "src": "/gallery/bilelikde/1.webp",
+      "w": 720,
+      "h": 960
+    },
+    {
+      "id": "seed-46",
+      "type": "image",
+      "category": "bilelikde",
+      "title": "Bilelikde",
+      "thumb": "/gallery/bilelikde/t/2.webp",
+      "src": "/gallery/bilelikde/2.webp",
+      "w": 720,
+      "h": 540
+    },
+    {
+      "id": "seed-47",
+      "type": "image",
+      "category": "bilelikde",
+      "title": "Bilelikde",
+      "thumb": "/gallery/bilelikde/t/3.webp",
+      "src": "/gallery/bilelikde/3.webp",
+      "w": 720,
+      "h": 540
+    },
+    {
+      "id": "seed-48",
+      "type": "image",
+      "category": "bilelikde",
+      "title": "Bilelikde",
+      "thumb": "/gallery/bilelikde/t/4.webp",
+      "src": "/gallery/bilelikde/4.webp",
+      "w": 522,
+      "h": 391
+    },
+    {
+      "id": "seed-49",
+      "type": "image",
+      "category": "bilelikde",
+      "title": "Bilelikde",
+      "thumb": "/gallery/bilelikde/t/5.webp",
+      "src": "/gallery/bilelikde/5.webp",
+      "w": 720,
+      "h": 540
+    },
+    {
+      "id": "seed-50",
+      "type": "image",
+      "category": "bilelikde",
+      "title": "Bilelikde",
+      "thumb": "/gallery/bilelikde/t/6.webp",
+      "src": "/gallery/bilelikde/6.webp",
+      "w": 720,
+      "h": 960
+    },
+    {
+      "id": "seed-51",
+      "type": "image",
+      "category": "bilelikde",
+      "title": "Bilelikde",
+      "thumb": "/gallery/bilelikde/t/7.webp",
+      "src": "/gallery/bilelikde/7.webp",
+      "w": 720,
+      "h": 960
+    },
+    {
+      "id": "seed-52",
+      "type": "image",
+      "category": "bilelikde",
+      "title": "Bilelikde",
+      "thumb": "/gallery/bilelikde/t/8.webp",
+      "src": "/gallery/bilelikde/8.webp",
+      "w": 720,
+      "h": 540
+    },
+    {
+      "id": "seed-53",
+      "type": "image",
+      "category": "bilelikde",
+      "title": "Bilelikde",
+      "thumb": "/gallery/bilelikde/t/9.webp",
+      "src": "/gallery/bilelikde/9.webp",
+      "w": 720,
+      "h": 960
+    },
+    {
+      "id": "seed-54",
+      "type": "image",
+      "category": "bilelikde",
+      "title": "Bilelikde",
+      "thumb": "/gallery/bilelikde/t/10.webp",
+      "src": "/gallery/bilelikde/10.webp",
+      "w": 720,
+      "h": 540
+    },
+    {
+      "id": "seed-55",
+      "type": "image",
+      "category": "bilelikde",
+      "title": "Bilelikde",
+      "thumb": "/gallery/bilelikde/t/11.webp",
+      "src": "/gallery/bilelikde/11.webp",
+      "w": 550,
+      "h": 558
+    },
+    {
+      "id": "seed-56",
+      "type": "image",
+      "category": "bilelikde",
+      "title": "Bilelikde",
+      "thumb": "/gallery/bilelikde/t/12.webp",
+      "src": "/gallery/bilelikde/12.webp",
+      "w": 720,
+      "h": 540
+    },
+    {
+      "id": "seed-57",
+      "type": "image",
+      "category": "bilelikde",
+      "title": "Bilelikde",
+      "thumb": "/gallery/bilelikde/t/13.webp",
+      "src": "/gallery/bilelikde/13.webp",
+      "w": 720,
+      "h": 540
+    },
+    {
+      "id": "seed-58",
+      "type": "image",
+      "category": "bilelikde",
+      "title": "Bilelikde",
+      "thumb": "/gallery/bilelikde/t/14.webp",
+      "src": "/gallery/bilelikde/14.webp",
+      "w": 720,
+      "h": 540
+    },
+    {
+      "id": "seed-59",
+      "type": "image",
+      "category": "bilelikde",
+      "title": "Bilelikde",
+      "thumb": "/gallery/bilelikde/t/15.webp",
+      "src": "/gallery/bilelikde/15.webp",
+      "w": 720,
+      "h": 540
+    },
+    {
+      "id": "vid-2",
+      "type": "video",
+      "category": "bilelikde",
+      "title": "Bilelikde — wideo",
+      "thumb": "/smm/videos/v2.webp",
+      "src": "/smm/videos/v2.mp4",
+      "w": 1280,
+      "h": 720
+    }
+  ],
+  "teachers": [
+    {
+      "id": "t-1",
+      "name": "Kyýas Annamämmedow",
+      "role": "Müdir",
+      "photo": "/teachers/23.webp",
+      "sort": 0
+    },
+    {
+      "id": "t-2",
+      "name": "Çary Rejepberdiýew",
+      "role": "Orunbasar",
+      "photo": "/teachers/24.webp",
+      "sort": 1
+    },
+    {
+      "id": "t-3",
+      "name": "Arzuw Bashbaýew",
+      "role": "Guramaçy",
+      "photo": "/teachers/25.webp",
+      "sort": 2
+    },
+    {
+      "id": "t-4",
+      "name": "Kerwen Baýlyýew",
+      "role": "Kompýuter we Programmirleme mugallym",
+      "photo": "/teachers/1.webp",
+      "sort": 3
+    },
+    {
+      "id": "t-5",
+      "name": "Hezret Subetow",
+      "role": "Iňlis dili mugallym",
+      "photo": "/teachers/2.webp",
+      "sort": 4
+    },
+    {
+      "id": "t-6",
+      "name": "Rahym Begenjow",
+      "role": "Iňlis dili we Mental arifmetika mugallym",
+      "photo": "/teachers/3.webp",
+      "sort": 5
+    },
+    {
+      "id": "t-7",
+      "name": "Piksasowa Tamila",
+      "role": "Iňlis dili mugallym",
+      "photo": "/teachers/4.webp",
+      "sort": 6
+    },
+    {
+      "id": "t-8",
+      "name": "Aýna Ashyrowna",
+      "role": "Rus dili mugallym",
+      "photo": "/teachers/5.webp",
+      "sort": 7
+    },
+    {
+      "id": "t-9",
+      "name": "Annagözel Bäbişowa",
+      "role": "Iňlis dili mugallym",
+      "photo": "/teachers/6.webp",
+      "sort": 8
+    },
+    {
+      "id": "t-10",
+      "name": "Saparnepes Atabaýew",
+      "role": "Iňlis dili mugallym",
+      "photo": "/teachers/7.webp",
+      "sort": 9
+    },
+    {
+      "id": "t-11",
+      "name": "Arzygül Bagyýewa",
+      "role": "Iňlis dili mugallym",
+      "photo": "/teachers/8.webp",
+      "sort": 10
+    },
+    {
+      "id": "t-12",
+      "name": "Arzygül Mämmetweliýewa",
+      "role": "Iňlis dili mugallym",
+      "photo": "/teachers/9.webp",
+      "sort": 11
+    },
+    {
+      "id": "t-13",
+      "name": "Bibinyýaz Hydyrowa",
+      "role": "Iňlis dili mugallym",
+      "photo": "/teachers/10.webp",
+      "sort": 12
+    },
+    {
+      "id": "t-14",
+      "name": "Abadan Nepesowa",
+      "role": "Iňlis dili mugallym",
+      "photo": "/teachers/11.webp",
+      "sort": 13
+    },
+    {
+      "id": "t-15",
+      "name": "Ogultagan Täçgulyýewa",
+      "role": "Iňlis dili mugallym",
+      "photo": "/teachers/12.webp",
+      "sort": 14
+    },
+    {
+      "id": "t-16",
+      "name": "Ýazgylyç Gurbannyýazow",
+      "role": "Rus dili mugallym",
+      "photo": "/teachers/13.webp",
+      "sort": 15
+    },
+    {
+      "id": "t-17",
+      "name": "Nurjemal Amangeldiýewa",
+      "role": "Rus dili mugallym",
+      "photo": "/teachers/14.webp",
+      "sort": 16
+    },
+    {
+      "id": "t-18",
+      "name": "Amangül Hudaýberdiýewa",
+      "role": "Iňlis dili mugallym",
+      "photo": "/teachers/15.webp",
+      "sort": 17
+    },
+    {
+      "id": "t-19",
+      "name": "Mähri Annageldiýewa",
+      "role": "Nemes dili mugallym",
+      "photo": "/teachers/16.webp",
+      "sort": 18
+    },
+    {
+      "id": "t-20",
+      "name": "Möwlam Weliýew",
+      "role": "Matematika mugallym",
+      "photo": "/teachers/17.webp",
+      "sort": 19
+    },
+    {
+      "id": "t-21",
+      "name": "Ýazgül Işanowa",
+      "role": "Iňlis dili mugallym",
+      "photo": "/teachers/18.webp",
+      "sort": 20
+    },
+    {
+      "id": "t-22",
+      "name": "Güljemal Soltanowa",
+      "role": "Hytaý dili mugallym",
+      "photo": "/teachers/19.webp",
+      "sort": 21
+    },
+    {
+      "id": "t-23",
+      "name": "Gülzada Gardyýewa",
+      "role": "Rus dili mugallym",
+      "photo": "/teachers/20.webp",
+      "sort": 22
+    },
+    {
+      "id": "t-24",
+      "name": "Ýolaman Ballybaýew",
+      "role": "Iňlis dili mugallym",
+      "photo": "/teachers/21.webp",
+      "sort": 23
+    },
+    {
+      "id": "t-25",
+      "name": "Şemşat Nuhyýewa",
+      "role": "Biologiýa we Himiýa mugallym",
+      "photo": "/teachers/22.webp",
+      "sort": 24
+    }
+  ]
+}
